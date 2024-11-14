@@ -6,8 +6,8 @@ $_SERVER['Shib-Application-ID'] = 'vhb';
 $_SERVER['REDIRECT_Shib_Application_ID'] = 'vhb';
 
 // personal data (mapping is configured in Shibboleth settings of ILIAS
-$_SERVER['eduPersonPrincipalName'] = 'vhbtest@uni-erlangen.de';
-//$_SERVER['eduPersonPrincipalName'] = '123457X25@vhb.org';
+//$_SERVER['eduPersonPrincipalName'] = 'vhbtest@uni-erlangen.de';
+$_SERVER['eduPersonPrincipalName'] = '123457X25@vhb.org';
 $_SERVER['givenName'] = 'Vhb';
 $_SERVER['sn'] = 'Test';
 $_SERVER['mail'] = 'noreply@databay.de';
@@ -15,8 +15,8 @@ $_SERVER['mail'] = 'noreply@databay.de';
 // data for VhbShibAuth plugin
 $_SERVER['eduPersonEntitlement'] = implode(';', [
     'urn:mace:vhb.org:entitlement:vhb-access',
-    'urn:mace:vhb.org:entitlement:lms:student:uni-erlangen.de:LV_463_1227_1_67_1',
-    //'urn:mace:vhb.org:entitlement:lms:student:uni-erlangen.de:LV_463_1227_1_67_1'
+    'urn:mace:vhb.org:entitlement:lms:student:uni-erlangen.de:LV_SINGLE',
+//    'urn:mace:vhb.org:entitlement:lms:student:uni-erlangen.de:LV_463_1227_1_67_1'
 ]);
 
 chdir("../..");
