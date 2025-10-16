@@ -1,7 +1,7 @@
 # vhbtest
 Testumgebung für das vhbShibAuth-Plugin
 
-* Dieses Repository in einen `.env` Ordner der ILIAS-Installation kopieren
+* Dieses Repository in einen `extern` Ordner der ILIAS-Installation kopieren
 * Die `shib_test.conf` in die Apache-Konfiguration eintragen und die Pfade zur ILIAS-Installation anpassen
 * Server-Variablen zur Simulation der vhb-Schnittstelle in `shib_test.php` anpassen
 
