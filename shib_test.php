@@ -19,8 +19,10 @@ $_SERVER['eduPersonEntitlement'] = implode(';', [
 
     'urn:mace:vhb.org:entitlement:lms:student:uni-erlangen.de:LV_SINGLE',
 //    'urn:mace:vhb.org:entitlement:lms:evaluation:uni-erlangen.de:LV_SINGLE',
+//    'urn:mace:vhb.org:entitlement:lms:appr:uni-erlangen.de:LV_SINGLE',
 
-    'urn:mace:vhb.org:entitlement:lms:student:uni-erlangen.de:LV_463_1227_1_67_1',
+//    'urn:mace:vhb.org:entitlement:lms:student:uni-erlangen.de:LV_463_1227_1_67_1',
+//    'urn:mace:vhb.org:entitlement:lms:evaluation:uni-erlangen.de:LV_463_1227_1_67_1',
 //    'urn:mace:vhb.org:entitlement:lms:appr:uni-erlangen.de:LV_463_1227_1_67_1',
 ]);
 
